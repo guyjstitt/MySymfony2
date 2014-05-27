@@ -48,13 +48,15 @@ p,.p {
     height: 100%;
     background-image:url('carbon4.jpg');
     overflow: hidden;
+    position: fixed;
 }
 
 .title-margin{
     margin-top: 5%;
 }
 
-body {overflow: hidden; }
+body {overflow: hidden;
+position: fixed;}
 
 .ul-left
 {
