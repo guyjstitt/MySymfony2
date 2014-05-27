@@ -48,13 +48,15 @@ p,.p {
     height: 100%;
     background-image:url('carbon4.jpg');
     overflow: hidden;
+    position: fixed;
 }
 
 .title-margin{
     margin-top: 5%;
 }
 
-body {overflow: hidden; }
+body {overflow: hidden;
+}
 
 .ul-left
 {
@@ -136,8 +138,8 @@ margin-bottom: 10px;
 }
 
 .navbar-default {
-    background-color: transparent;
-    border-color: transparent;
+    background-color: black;
+    border-color: black;
 }
 
 .navbar-brand {
