@@ -45,6 +45,7 @@ class __TwigTemplate_051cf71ecad432a9fdbcfbddb1fbdeadd8550f6e313957f0f83fa568280
     {
         // line 11
         echo "    <!-- Fixed navbar -->
+\t<meta name=\"viewport\" content=\"width=device-width, height=device-height\">
     <div class=\"navbar navbar-default navbar-fixed-top\" role=\"navigation\">
         <div class=\"container\">
             <div class=\"navbar-header\">
