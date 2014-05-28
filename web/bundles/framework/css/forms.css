@@ -3,8 +3,9 @@
 
 .site-container {
 
-    margin-left: 10%;
-
+    left: 10%;
+	margin-right: 5%;
+	position:absolute;
 
 }
 .header {
@@ -181,6 +182,13 @@ margin-left: 0%;
 
 .container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
 margin-right: 0;
-margin-left: 0;
+
 padding-left: 9.5%;
+}
+
+.navbar-nav {
+
+background-color: black;
+margin-top: 0;
+margin-right: 2px;
 }
