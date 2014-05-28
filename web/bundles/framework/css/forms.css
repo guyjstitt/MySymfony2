@@ -146,8 +146,8 @@ margin-bottom: 10px;
     background-color: black;
     border-color: blue;
 	margin-top: 3%;
-	margin-left: 10%;
-	margin-right: 63%
+
+	
 }
 
 .navbar-brand {
@@ -157,6 +157,7 @@ margin-bottom: 10px;
     line-height: 20px;
     height: 50px;
     font-color: white;
+	display: none;
 }
 .navbar-default .navbar-brand {
     color: white;
@@ -168,11 +169,18 @@ margin-bottom: 10px;
 }
 
 .navbar-fixed-top {
-border-width: 1px 1px 1px 1px
+border-width: 0 0 0 0;
+background-color: transparent;
 }
 .container
 {
 width: 100%;
 margin-left: 0%;
 
+}
+
+.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
+margin-right: 0;
+margin-left: 0;
+padding-left: 9.5%;
 }
