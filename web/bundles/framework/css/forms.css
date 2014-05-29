@@ -186,9 +186,16 @@ margin-right: 0;
 padding-left: 9.5%;
 }
 
-.navbar-nav {
+.navbar-nav  {
 
 background-color: black;
 margin-top: 0;
 margin-right: 2px;
+}
+
+button {
+background-color: lightgray;
+color: black;
+position:relative;
+margin-left: 10px;
 }
