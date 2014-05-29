@@ -3,11 +3,13 @@
 
 .site-container {
 
-    left: 10%;
-	margin-right: 5%;
-	position:absolute;
-
-}
+    display: block;
+	margin: 0 auto;
+	max-width: 75%;
+	padding-top: 5%;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}	
 .header {
 
 }
@@ -200,3 +202,13 @@ color: black;
 position:relative;
 margin-left: 10px;
 }
+
+.btn-lg, .btn-group-lg>.btn {
+font-size: 18px;
+line-height: .8;
+border-radius: 6px;
+margin-bottom: 2%;
+}
+
+.btn-lg, .btn-group-lg>.btn {
+padding: 6px;
